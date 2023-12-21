@@ -10,8 +10,8 @@ import kera from '../Assets/talk-about-travelling-4-1024x576.jpg'
 
 function Packages() {
   return (
-    <>
-      <Row>
+    <div>
+      <Row className="container">
         <Col style={{ marginTop: "15px" }} sm={12} md={6} lg={3}>
           <Card style={{ width: "18rem" }}>
             <Card.Img variant="top" src={goa} />
@@ -82,7 +82,7 @@ function Packages() {
           MORE PACKAGES
         </button>
       </div>
-    </>
+    </div>
   );
 }
 
