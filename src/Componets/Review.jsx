@@ -6,7 +6,7 @@ import three from '../Assets/couple 2.jpeg'
 function Review() {
   return (
     <>
-      <div className="container text-center mt-5">
+      <div className="container text-center mt-5" >
         <div>
           <i class="fa-solid fa-envelope-open-text fs-1 text text-warning"></i>
         </div>
@@ -79,6 +79,7 @@ function Review() {
           </div>
         </div>
       </div>
+      <div id="footer"></div>
     </>
   );
 }

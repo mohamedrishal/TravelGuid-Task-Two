@@ -28,27 +28,22 @@ function Header() {
                 </a>
               </li>
               <li class="nav-item" >
-                <a class="nav-link"   href="#">
+                <a class="nav-link"   href="#packages">
 <span className="text-white">                    Packages</span>
                 </a>
               </li>
               <li class="nav-item" >
-                <a class="nav-link"   href="#">
-                  <span className="text-white">Transport Packages</span>
+                <a class="nav-link"   href="#special">
+                  <span className="text-white"> Packages special</span>
                 </a>
               </li>
               <li class="nav-item" >
-                <a class="nav-link"   href="#">
-<span className="text-white">                  Hotels</span>
+                <a class="nav-link"   href="#review">
+<span className="text-white">                  Customers Review</span>
                 </a>
               </li>
               <li class="nav-item" >
-                <a class="nav-link"   href="#">
-<span className="text-white">                  Blogs</span>
-                </a>
-              </li>
-              <li class="nav-item" >
-                <a class="nav-link"   href="#">
+                <a class="nav-link"   href="#footer">
 <span className="text-white">                  Support</span>
                 </a>
               </li>

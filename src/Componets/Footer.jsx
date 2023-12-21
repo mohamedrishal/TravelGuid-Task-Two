@@ -5,11 +5,11 @@ function Footer() {
   return (
     <>
       <div
-        style={{ padding:"20px",width: "100%", height: "100%",backgroundColor:"#252525" }}
+        style={{ padding:"20px",width: "100%", height: "100%",backgroundColor:"#252525",margin:"0px" }}
         className="d-flex  flex-column 
-    justify-content-center align-items-center border  mt-5"
+    justify-content-center align-items-center pt-5  mt-5"
       >
-        <div className="footer-div d-flex justify-content-evenly w-100 flex-wrap">
+        <div className="footer-div d-flex justify-content-evenly w-100 flex-wrap m-5">
           <div className="website " style={{ width: "400px" }}>
             <h4 className="fw-bolder text-white">
             <span style={{ color: "yellow", fontSize: "32px" }}>
@@ -47,7 +47,7 @@ function Footer() {
               style={{ textDecoration: "none" }}
             >
               {" "}
-              UK
+              Connections
             </Link>
           </div>
           <div className="guides d-flex  flex-column ">

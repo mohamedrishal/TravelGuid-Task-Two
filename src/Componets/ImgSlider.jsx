@@ -6,7 +6,7 @@ import slideThree from "../Assets/festival three.jpg"
 function ImgSlider() {
   return (
     <>
-    <div className="my-5">
+    <div className="my-5" >
         <h1 className="text-center">SPACIAL KERALA FESTIVAL TOURS</h1>
     </div>
        <div id="carouselExampleCaptions"
@@ -87,7 +87,7 @@ function ImgSlider() {
                         aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
-                <button class="carousel-control-next" type="button"
+                <button   class="carousel-control-next" type="button"
                     data-bs-target="#carouselExampleCaptions"
                     data-bs-slide="next">
                     <span class="carousel-control-next-icon"
@@ -95,6 +95,7 @@ function ImgSlider() {
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
+            <div id="review"></div>
 
     </>
   );

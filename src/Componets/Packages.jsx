@@ -77,7 +77,7 @@ function Packages() {
           </Card>
         </Col>
       </Row>
-      <div className="more-package-btn my-4 d-flex justify-content-center align-items-center">
+      <div className="more-package-btn my-4 d-flex justify-content-center align-items-center" id="special">
         <button type="button" class="btn  btn-primary ">
           MORE PACKAGES
         </button>
